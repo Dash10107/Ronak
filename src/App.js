@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
+
+import Home from "./Components/Home";
+import Birthday from "./Components/Birthday";
+import Hackathon from "./Components/Hackathon";
+import Fest from "./Components/Fest";
+import Memories from "./Components/Memories";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return ( 
+    <>
+    <Router>
+     <Routes>
+     <Route  path="/" element={<Home />} />
+        <Route  path="/birthday" element={<Birthday />} />
+        <Route  path="/hackathon" element={<Hackathon />} />
+        <Route  path="/fest" element={<Fest />} />
+        <Route  path="/memories" element={<Memories />} />
+       </Routes>
+    </Router>
+  </>
   );
 }
 
 export default App;
+

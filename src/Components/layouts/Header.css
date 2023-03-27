@@ -1,0 +1,28 @@
+.links  a:before,  a:after
+{
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #FFF;
+    transition: all 0.3s;
+}
+
+.links  a:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+.links  a:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+ 
+.links a:hover:before,  a:hover:after
+{
+    opacity: 1;
+    width: 100%;
+}
