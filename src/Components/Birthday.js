@@ -9,7 +9,14 @@ function Birthday(){
   const [rotate2,setRotate2] = useState(false);
 
 return <>
+
 <div className="text-center "> 
+<motion.div
+    className="birthday"
+    initial={{opacity:0}}
+    animate={{opacity:1}}
+    exit={{opacity:0}}
+    >
 <h1  ><Typewriter
   onInit={(typewriter) => {
     typewriter.typeString('Happy Birthday Ronak ')
@@ -127,7 +134,7 @@ onClick={()=>{
 
 </motion.div>
 </div>
-
+</motion.div>
 </div>
 
 </>
