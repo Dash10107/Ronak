@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./layouts/Header";
 import {motion} from "framer-motion";
+
 function Memories(){
     return <div>
     <motion.div
@@ -30,50 +31,50 @@ function Memories(){
     <div class="carousel-item active ml-28">
     <img style={{ width: 1700, height: 1000 }} src="./Images/Mem.jpg" alt="React Logo" />
       <div class="carousel-caption d-none d-md-block">
-        <h5> </h5>
-        <p> </p>
+        <h5>Quick Glamps of every</h5>
+        <p>Anti-Virus group enjayable moments</p>
       </div>
     </div>
     <div class="carousel-item ml-28">
     <img style={{ width: 1700, height: 1000 }} src="./Images/Mem2.jpg" alt="React Logo" />
       <div class="carousel-caption d-none d-md-block">
-        <h5> </h5>
-        <p> </p>
+        <h5>Quick Glamps of every</h5>
+        <p>Anti-Virus group enjayable moments</p>
       </div>
     </div>
     <div class="carousel-item ml-28">
-    <img style={{ width: 1700, height: 1000 }} src="./Images/Mem3.jpg.jpg" alt="React Logo" />
+    <img style={{ width: 1700, height: 1000 }} src="./Images/Mem3.jpg" alt="React Logo" />
       <div class="carousel-caption d-none d-md-block">
-        <h5> </h5>
-        <p> </p>
+        <h5>Quick Glamps of every</h5>
+        <p>Anti-Virus group enjayable moments</p>
       </div>
     </div>
     <div class="carousel-item ml-28">
-    <img style={{ width: 1700, height: 1000 }} src="./Images/Mem4.jpg.jpg" alt="React Logo" />
+    <img style={{ width: 1700, height: 1000 }} src="./Images/Mem4.jpg" alt="React Logo" />
       <div class="carousel-caption d-none d-md-block">
-        <h5> </h5>
-        <p> </p>
+        <h5>Quick Glamps of every</h5>
+        <p>Anti-Virus group enjayable moments</p>
       </div>
     </div>
     <div class="carousel-item ml-28">
-    <img style={{ width: 1700, height: 1000 }} src="./Images/Mem5.jpg.jpg" alt="React Logo" />
+    <img style={{ width: 1700, height: 1000 }} src="./Images/Mem5.jpg" alt="React Logo" />
       <div class="carousel-caption d-none d-md-block">
-        <h5> </h5>
-        <p> </p>
+        <h5>Quick Glamps of every</h5>
+        <p>Anti-Virus group enjayable moments</p>
       </div>
     </div>
     <div class="carousel-item ml-28">
-    <img style={{ width: 1700, height: 1000 }} src="./Images/Mem6.jpg.jpg" alt="React Logo" />
+    <img style={{ width: 1700, height: 1000 }} src="./Images/Mem6.jpg" alt="React Logo" />
       <div class="carousel-caption d-none d-md-block">
-        <h5> </h5>
-        <p> </p>
+        <h5>Quick Glamps of every</h5>
+        <p>Anti-Virus group enjayable moments</p>
       </div>
     </div>
     <div class="carousel-item ml-28">
-    <img style={{ width: 1700, height: 1000 }} src="./Images/Mem7.jpg.jpg" alt="React Logo" />
+    <img style={{ width: 1700, height: 1000 }} src="./Images/Mem7.jpg" alt="React Logo" />
       <div class="carousel-caption d-none d-md-block">
-        <h5> </h5>
-        <p> </p>
+        <h5>Quick Glamps of every</h5>
+        <p>Anti-Virus group enjayable moments</p>
       </div>
     </div>
   </div>

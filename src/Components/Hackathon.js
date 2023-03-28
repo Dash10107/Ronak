@@ -25,24 +25,24 @@ function Hackathon(){
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active ml-28">
-    <img style={{ width: 1700, height: 1000 }} src="./Images/collage.jpg" alt="React Logo" />
+    <img style={{ width: 1700, height: 1000 }} src="./Images/Hack.jpg" alt="React Logo" />
       <div class="carousel-caption d-none d-md-block">
-        <h5> </h5>
-        <p></p>
+        <h5>HACKATHON EVENT !!</h5>
+        <p>The group named Debbuggers entered the event of the Hackathon first time !!</p>
       </div>
     </div>
     <div class="carousel-item ml-28">
-    <img style={{ width: 1700, height: 1000 }} src="./Images/Collage1.jpg" alt="React Logo" />
+    <img style={{ width: 1700, height: 1000 }} src="./Images/Hack2.jpg" alt="React Logo" />
       <div class="carousel-caption d-none d-md-block">
-        <h5>  </h5>
-        <p> </p>
+        <h5>HACKATHON EVENT !!</h5>
+        <p>The group named Debbuggers entered the event of the Hackathon first time !!</p>
       </div>
     </div>
     <div class="carousel-item ml-28">
-    <img style={{ width: 1700, height: 1000 }} src="./Images/collage.jpg" alt="React Logo" />
+    <img style={{ width: 1700, height: 1000 }} src="./Images/Hack3.jpg" alt="React Logo" />
       <div class="carousel-caption d-none d-md-block">
-        <h5> </h5>
-        <p> </p>
+        <h5>HACKATHON EVENT !!</h5>
+        <p>The group named Debbuggers entered the event of the Hackathon first time !!</p>
       </div>
     </div>
   </div>

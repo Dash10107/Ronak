@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./layouts/Header";
 import {motion} from "framer-motion";
 function Fest(){
+
     return <div>
      <motion.div
     className="fest"
@@ -24,24 +25,24 @@ function Fest(){
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active ml-28">
-    <img style={{ width: 1700, height: 1000 }} src="./Images/collage.jpg" alt="React Logo" />
+    <img style={{ width: 1700, height: 1000 }} src="./Images/Fest.jpg" alt="React Logo" />
       <div class="carousel-caption d-none d-md-block">
-        <h5> </h5>
-        <p></p>
+        <h5> College Fest</h5>
+        <p>The first college fest and also the time when introvats became the extrovets !</p>
       </div>
     </div>
     <div class="carousel-item ml-28">
-    <img style={{ width: 1700, height: 1000 }} src="./Images/Collage1.jpg" alt="React Logo" />
+    <img style={{ width: 1700, height: 1000 }} src="./Images/Fest2.jpg" alt="React Logo" />
       <div class="carousel-caption d-none d-md-block">
-        <h5> </h5>
-        <p> </p>
+        <h5>College Fest</h5>
+        <p>The first college fest and also the time when introvats became the extrovets !</p>
       </div>
     </div>
     <div class="carousel-item ml-28">
-    <img style={{ width: 1700, height: 1000 }} src="./Images/collage.jpg" alt="React Logo" />
+    <img style={{ width: 1700, height: 1000 }} src="./Images/Fest3.jpg" alt="React Logo" />
       <div class="carousel-caption d-none d-md-block">
-        <h5> </h5>
-        <p> </p>
+        <h5>College Fest</h5>
+        <p>The first college fest and also the time when introvats became the extrovets !</p>
       </div>
     </div>
   </div>
