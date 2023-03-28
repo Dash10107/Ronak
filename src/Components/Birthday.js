@@ -19,7 +19,7 @@ return <>
     >
 <h1  ><Typewriter
   onInit={(typewriter) => {
-    typewriter.typeString('Happy Birthday Ronak ')
+    typewriter.typeString('Happy Birthday Ronak')
       .pause(5000)
       .start();
   }}
@@ -40,17 +40,17 @@ onClick={()=>{
   <div class="card mb-3  mt-36 mx-10 border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110 " >
     <div class="row g-0">
       <div class="">
-      <div class="col-md-4">
+      <div class="">
       <button type="button" classNameName="btn" onClick={()=>{
     navigate("/"); }}>
-        <img src="https://media.istockphoto.com/id/173682323/photo/says.jpg?s=612x612&w=0&k=20&c=7jnXQrYzUWNTnLhjPgimxHIbjsaHvZmAMALGVzYNARQ=" class="min-w-max rounded-start" alt="..." />
+        <img style={{ width: 700, height: 500 }} src="./Images/Home2.jpg" alt="React Logo" />
       </button>
       </div>
       <div class="h-72 bg-slate-800 text-white">
         <div class="card-body ">
           <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          <p class="card-text">This goes back to home page </p>
+          <p class="card-text"><small class="text-body-secondary"></small></p>
         </div>
       </div>
       </div>
@@ -68,17 +68,17 @@ onClick={()=>{
   <div class="card mb-3  mt-36 mx-10 border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110 " >
     <div class="row g-0">
       <div class="">
-      <div class="col-md-4">
+      <div class="">
       <button type="button" classNameName="btn" onClick={()=>{
     navigate("/hackathon"); }}>
-        <img src="https://media.istockphoto.com/id/173682323/photo/says.jpg?s=612x612&w=0&k=20&c=7jnXQrYzUWNTnLhjPgimxHIbjsaHvZmAMALGVzYNARQ=" class="min-w-max rounded-start" alt="..." />
+        <img style={{ width: 1200, height: 500 }} src="./Images/Home.jpg" alt="React Logo" />
       </button>
       </div>
       <div class="h-72 bg-slate-800 text-white">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          <h5 class="card-title">Hackathon</h5>
+          <p class="card-text">These are hackathon memories</p>
+          <p class="card-text"><small class="text-body-secondary"></small></p>
         </div>
       </div>
       </div>
@@ -90,17 +90,16 @@ onClick={()=>{
   <div class="card mb-3  mt-24 mx-10 border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110 " >
     <div class="row g-0">
       <div class="">
-      <div class="col-md-4">
+      <div class="">
       <button type="button" classNameName="btn" onClick={()=>{
     navigate("/memories"); }}>
-        <img src="https://media.istockphoto.com/id/173682323/photo/says.jpg?s=612x612&w=0&k=20&c=7jnXQrYzUWNTnLhjPgimxHIbjsaHvZmAMALGVzYNARQ=" class="min-w-max rounded-start" alt="..." />
-     </button>
+                <img style={{ width: 1200, height: 500 }} src="./Images/Home.jpg" alt="React Logo" />     </button>
       </div>
       <div class="h-72 bg-slate-800 text-white">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          <h5 class="card-title">Memories</h5>
+          <p class="card-text">These our other memories</p>
+          <p class="card-text"><small class="text-body-secondary"></small></p>
         </div>
       </div>
       </div>
@@ -112,18 +111,17 @@ onClick={()=>{
   <div class="card mb-3  mt-24 mx-10 border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110 " >
     <div class="row g-0">
       <div class="">
-      <div class="col-md-4">
+      <div class="">
       <button type="button" classNameName="btn" onClick={()=>{
     navigate("/fest"); }}>
-        <img src="https://media.istockphoto.com/id/173682323/photo/says.jpg?s=612x612&w=0&k=20&c=7jnXQrYzUWNTnLhjPgimxHIbjsaHvZmAMALGVzYNARQ=" class="min-w-max rounded-start" alt="..." />
-      </button>
+                <img style={{ width: 1200, height: 500 }} src="./Images/Home2.jpg" alt="React Logo" />      </button>
       </div>
       <div class="h-72 bg-slate-800 text-white">
     
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          <h5 class="card-title">Fest</h5>
+          <p class="card-text">These our fest memories</p>
+          <p class="card-text"><small class="text-body-secondary"></small></p>
         </div>
       
          </div>
